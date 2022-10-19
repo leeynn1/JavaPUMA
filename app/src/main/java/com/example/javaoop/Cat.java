@@ -26,3 +26,4 @@ public class Cat extends Animal{
                 ", and i`m " + age + " years old.");
     }
 }
+
