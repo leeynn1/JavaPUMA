@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         puma.talk();
         puma.isAlive = true;
         Log.i("isAlive", String.valueOf(puma.isAlive));
-        Log.i("breathe", "My name is " + puma.name + " and " + puma.breathe());
+        Log.i("breathe ", "My name is " + puma.name + " and " + puma.breathe());
     }
 
     void method(double x, int y) {

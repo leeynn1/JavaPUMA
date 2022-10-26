@@ -31,7 +31,7 @@ public class Cat extends Animal{
     }
 
     public void talk(String hello){
-        Log.i("talk()", "Meow! " + hello);
+        Log.i("talk()", "Meow ! " + hello);
     }
 }
 
