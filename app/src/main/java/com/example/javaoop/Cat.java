@@ -6,6 +6,7 @@ public class Cat extends Animal{
     protected int age;
     String name;
 
+
     private String color;
     private String breed;
 
