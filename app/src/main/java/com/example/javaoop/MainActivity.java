@@ -89,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
         }else{
             Log.i("instanceof", "This is not Puma" );
         }
+        Cat cat6 = new Cat();
+        Log.i("numberOfLegs", " cat6 number Of Legs " + cat6.numberOfLegs + Cat.whatCatsLike());
+
+
+
 
 
 
