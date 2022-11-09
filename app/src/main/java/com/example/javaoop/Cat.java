@@ -10,6 +10,7 @@ public class Cat extends Animal{
     private String breed;
     public Cat()  {
 
+
     }
     public Cat(String color, String breed) {
         this.color = color;
