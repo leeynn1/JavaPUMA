@@ -10,7 +10,7 @@ public class Animal {
 
     public String breathe(){
         //Log.i("Breathe()", "I can breathe");
-        return " I can breathe";
+        return "I can breathe";
     }
 
 }
