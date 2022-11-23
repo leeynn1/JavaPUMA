@@ -26,20 +26,15 @@ public class MainActivity extends AppCompatActivity {
         myCat = new Cat(4, "Puma");
         myCat.talk(3);
 
-
         Cat vaska = new Cat();
 
-
-
         Cat murzik = new Lion(2, "Murza");
-
-
 
         Cat glasha = new Cat();
         glasha.age = 1;
         glasha.name = "Masha";
-        glasha.numberOfLegs = 4;
-        Log.i("numberOfLegs", String.valueOf(glasha.numberOfLegs));
+
+        Log.i("numberOfLegs", String.valueOf(Cat.numberOfLegs));
         glasha.talk();
 
         Puma puma = new Puma();
@@ -90,32 +85,16 @@ public class MainActivity extends AppCompatActivity {
             Log.i("instanceof", "This is not Puma" );
         }
         Cat cat6 = new Cat();
-        Log.i("numberOfLegs", " cat6 number Of Legs " + cat6.numberOfLegs + Cat.whatCatsLike());
+        Log.i("numberOfLegs", " cat6 number Of Legs " + Cat.numberOfLegs + Cat.whatCatsLike());
 
 
-
-
-
-
-
-
-
+        Cat cat32 = new Cat(1, "Ceasar");
+        cat32.talk();
+        Cat cat33 = new Cat(5, "Petr");
+        cat33.talk();
+        Cat cat34 = new Cat(8, "Boris");
+        cat34.talk();
 
     }
-
-    void method(double x, int y) {
-        int a;
-        a = 1;
-        a = y + 1;
-        double d = x*2;
-        z = a + y;
-    }
-
-
-    void method1() {
-        int a;
-        a = 1;
-    }
-
 
 }
